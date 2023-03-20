@@ -667,26 +667,26 @@ h6 {
 }
 
 
-/*  !! ServicesConatainer */
+/*  !! ServicesContainer */
 
 
 
 
-.ServicesConatainer {
-    color: rgb(0, 0, 0);
+.ServicesContainer {
+    color: #1c2752;
     display: flex;
     flex-direction:column;
     align-items: center;
    
 }
 
-.ServicesConatainer_heading {
+.ServicesContainer_heading {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.ServicesConatainer_6service {
+.ServicesContainer_6service {
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
@@ -697,7 +697,7 @@ h6 {
 }
 
 
-.ServicesConatainer_heading div div:first-child {
+.ServicesContainer_heading div div:first-child {
     font-family: 'Inter', sans-serif;
     width: 200px;
     height: 22px;
@@ -708,7 +708,7 @@ h6 {
     
 }
 
-.ServicesConatainer_heading div div:last-child {
+.ServicesContainer_heading div div:last-child {
     width: 276px;
     height: 56px;
     font-family: 'Mulish', sans-serif;
@@ -720,13 +720,13 @@ h6 {
 
 }
 
-.ServicesConatainer_heading>div:first-child {
+.ServicesContainer_heading>div:first-child {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.ServicesConatainer_heading--p {
+.ServicesContainer_heading--p {
     width: 687px;
     height: 46px;
     font-family: 'Inter';
@@ -738,9 +738,9 @@ h6 {
     color: #7E7E7E;
 }
 
-.ServicesConatainer_6service--service {
-    width: 340px;
-    height: 300px;
+.ServicesContainer_6service--service {
+    width: 337px;
+    height: 319px;
     background-color: #1c2752;
     font-family: 'Inter';
     font-style: normal;
@@ -748,12 +748,12 @@ h6 {
     font-size: 15px;
     line-height: 22px;
     color: #a7a5a5c5;
-    padding: 35px;
+    padding: 24px;
     display: flex;
     flex-direction: column;
 }
 
-.ServicesConatainer_6service--service h2 {
+.ServicesContainer_6service--service h2 {
     margin-top: 2px;
     margin-bottom: 2px;
     text-transform: uppercase;
@@ -766,7 +766,7 @@ h6 {
     color: #8f7b10;
 }
 
-.ServicesConatainer_6service--service p {
+.ServicesContainer_6service--service p {
     line-height: 1;
     text-align: justify;
     margin: 0px;
@@ -777,7 +777,7 @@ h6 {
     color: #d2d2d2e0;
 }
 
-.ServicesConatainer_6service--hidden {
+.ServicesContainer_6service--hidden {
     display: none;
 }
 
@@ -787,7 +787,7 @@ h6 {
     display: none;
 }
 
-#check:checked ~ .ServicesConatainer_6service--hidden {
+#check:checked ~ .ServicesContainer_6service--hidden {
     display: block;
 }
 
@@ -814,7 +814,7 @@ h6 {
     display: none;
 }
 
-#check1:checked ~ .ServicesConatainer_6service--hidden {
+#check1:checked ~ .ServicesContainer_6service--hidden {
     display: block;
 }
 
@@ -843,7 +843,7 @@ h6 {
     display: none;
 }
 
-#check2:checked ~ .ServicesConatainer_6service--hidden {
+#check2:checked ~ .ServicesContainer_6service--hidden {
     display: block;
 }
 
@@ -875,7 +875,7 @@ h6 {
     display: none;
 }
 
-#check3:checked ~ .ServicesConatainer_6service--hidden {
+#check3:checked ~ .ServicesContainer_6service--hidden {
     display: block;
 }
 
@@ -904,7 +904,7 @@ h6 {
     display: none;
 }
 
-#check4:checked ~ .ServicesConatainer_6service--hidden {
+#check4:checked ~ .ServicesContainer_6service--hidden {
     display: block;
 }
 
@@ -933,7 +933,7 @@ h6 {
     display: none;
 }
 
-#check5:checked ~ .ServicesConatainer_6service--hidden {
+#check5:checked ~ .ServicesContainer_6service--hidden {
     display: block;
 }
 
@@ -963,7 +963,7 @@ h6 {
 
 /*  !! *** read more--customize ****/
 
-.ServicesConatainer_6service--customize {
+.ServicesContainer_6service--customize {
     padding: 0.6em 2em;
     border: none;
     outline: none;
@@ -987,7 +987,7 @@ h6 {
     margin-top: 120px;
 }
 
-.ServicesConatainer_6service--customize:before {
+.ServicesContainer_6service--customize:before {
     content: "";
     background: linear-gradient(
         45deg,
@@ -1021,7 +1021,7 @@ h6 {
     }
 }
 
-.ServicesConatainer_6service--customize:after {
+.ServicesContainer_6service--customize:after {
     z-index: -1;
     content: "";
     position: absolute;
@@ -1039,7 +1039,7 @@ h6 {
 /* responsiv */
 
 @media screen and (min-width: 100px) and (max-width: 900px){
-    .ServicesConatainer_6service{
+    .ServicesContainer_6service{
         flex-wrap: nowrap;
         gap: 27px;
         margin-top: 30px;
@@ -1101,4 +1101,69 @@ h6 {
     }
 
 }
+}
+
+/* !! Why Choose Container */
+
+.WhyChooseContainer {
+    margin-top: 210px;
+    justify-content: normal;
+}
+  
+  
+.WhyChooseContainer_subContent {
+    height: 760px;
+    width: 770px;
+    background: url(../img/porsches.jpg) no-repeat;
+    background-size: 770px;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhyChooseContainer_subContent--Content{
+    background-color: #ffd90052;
+    backdrop-filter: blur(10px);
+    padding: 140px 80px;
+    color: #1c2752;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.WhyChooseContainer_subContent--Counters {
+    display: flex;
+    align-items: center;
+}
+
+.WhyChooseContainer_subContent--Counters>span {
+    width: 96px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c2752;
+    color: #8f7b10;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    
+}
+
+.WhyChooseContainer_subContent--Counters>h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+    width: 280px;
+    height: 65px;
+    border: solid #fff;
+    display:flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 20px;
 }
