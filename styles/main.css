@@ -1302,6 +1302,17 @@ h6 {
 }
 
 /* !! testimonial content */
+.testimonial{
+    margin-top: 150px
+}
+
+
+.testimonial_content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
 
 .testimonial_content--SubText {
     color: #1c2752;
@@ -1319,31 +1330,161 @@ h6 {
 .testimonial_content--Customer {
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 280px;
+    width: 581px;
+    padding-bottom: 25px;
+    border-bottom: solid #DCDCDC;
+ 
 }
 
-.Customer-name > h3 {
+.Customers-name > h3 {
     margin: 6px 0 6px 0;
     color: #1c2752;
 }
 
-.testimonial_content--Customer > img{
+.testimonial_content--Customer div:first-child{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ 
+}
+
+.testimonial_content--Customer div:first-child > img {
     width: 70px;
     height: 70px;
     border-radius: 50px;
 }
 
-.Customer-name{
+.Customers-name{
     display: flex;
     flex-direction: column;
+    width: 150px;
 }
 
 .testimonial_content--Mainicon{
-    background-image: url(../img/icons/“.png);
     background-color: #1c2752;
+    background-image: url(../img/icons/“.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
     width: 45px;
     height: 45px;
+}
+
+.testimonial_content--Paragraph{
+    width: 500px;
+    height: 150px;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 136.02%;
+    letter-spacing: 0.035em;
+    margin-bottom: 30px;
+}
+
+.testimonial_content--icon12{
+    display: flex;
+    gap: 15px;
+}
+
+.testimonial_content--icon1{
+    background: #F8F8F8 ;
+    color: #1c2752;
+    padding: 14px 20px;
+    border-radius: 50%;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inherit;
+    transition: all 2s;
+
+}
+
+.testimonial_content--icon2{
+    background:  #1c2752;
+    color: #F8F8F8;
+    padding: 14px 20px;
+    border-radius: 50%;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inherit;
+    transition: all 2s;
+
+}
+.testimonial_content--icon1:hover{
+    background: #aaaaaa;
+    padding: 16px 22px;
+}
+
+
+.testimonial_content--icon2:hover{
+    background: #264e86;
+    padding: 16px 22px;
+}
+
+.testimonial_content--CustomersText{
+    border: solid;
+    padding: 40px;
+}
+
+ /* !! FAQ section */
+
+.testimonial_FAQ {
+    background-color: #1c2752;
+    padding: 50px 42px 50px 42px;
+}
+
+.testimonial_FAQ > div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+.testimonial_FAQ--icon {
+    width: fit-content;
+    background-color: #fff;
+    color: #1c2752;
+
+}
+
+
+.testimonial_FAQ--h4{
+    Font-style: 800;
+    Font-size: 25px;
+    color: #ae9924;
+    margin-bottom: 12px;
+    
+}
+
+.testimonial_FAQ--p{
+    width: 400px;
+    color: #ae9924d8;
+}
+
+.testimonial_FAQ--number{
+
+    Font-style: ExtraBold;
+    Font-size: 30px;
+    Line-height: 45px;
+    color: #fff;
+}
+
+.testimonial_FAQ--number-icon{
+    background: url(../img/icons/phone.png) #fff no-repeat center;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.testimonial_FAQ--Numbersection{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 2s;
+}
+
+.testimonial_FAQ--Numbersection:hover{
+    padding: 6px 0 0;
 }
