@@ -290,7 +290,7 @@ h6 {
     font-size: 18px;
     line-height: 22px;
     width: fit-content;
-    color: #1c2752
+    color: #1c2752;
 }
 
 .about_heading {
@@ -1252,7 +1252,7 @@ h6 {
 }
 
 .Gallery_heading--SubText {
-    width: fit-content;
+    width: fit-content
 }
 
 .Gallery_container {
@@ -1299,4 +1299,51 @@ h6 {
 
 .Gallery_container::-webkit-scrollbar-thumb:hover {
   background: #264e86; 
+}
+
+/* !! testimonial content */
+
+.testimonial_content--SubText {
+    color: #1c2752;
+    width: fit-content;
+}
+
+.testimonial_content--title > h3 {
+    color: #1c2752;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 44px;
+}
+
+.testimonial_content--Customer {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.Customer-name > h3 {
+    margin: 6px 0 6px 0;
+    color: #1c2752;
+}
+
+.testimonial_content--Customer > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.Customer-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial_content--Mainicon{
+    background-image: url(../img/icons/“.png);
+    background-color: #1c2752;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
 }
