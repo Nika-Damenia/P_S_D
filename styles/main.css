@@ -1306,20 +1306,25 @@ h6 {
     margin-top: 150px
 }
 
+.testimonial_maincontainer{
+    display: flex;
+    gap: 40px;
+    width: 1200px;
+}
 
 .testimonial_content{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    
+    gap: 42px;
+    width: 540px;
 }
 
-.testimonial_content--SubText {
+.testimonial_title--SubText {
     color: #1c2752;
     width: fit-content;
 }
 
-.testimonial_content--title > h3 {
+.testimonial_title > h3 {
     color: #1c2752;
     font-style: normal;
     font-weight: 800;
@@ -1330,10 +1335,10 @@ h6 {
 .testimonial_content--Customer {
     display: flex;
     align-items: center;
-    gap: 280px;
-    width: 581px;
+    gap: 180px;
+    width: 480px;
     padding-bottom: 25px;
-    border-bottom: solid #DCDCDC;
+    border-bottom: solid #DCDCDC ;
  
 }
 
@@ -1372,13 +1377,13 @@ h6 {
 }
 
 .testimonial_content--Paragraph{
-    width: 500px;
+    width: 450px;
     height: 150px;
     font-style: italic;
     font-size: 22px;
     line-height: 136.02%;
     letter-spacing: 0.035em;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .testimonial_content--icon12{
@@ -1423,7 +1428,8 @@ h6 {
 }
 
 .testimonial_content--CustomersText{
-    border: solid;
+    border: solid #DDDDDD;
+    box-shadow: 5px 10px 25px #8f8f8f8c;
     padding: 40px;
 }
 
@@ -1431,7 +1437,9 @@ h6 {
 
 .testimonial_FAQ {
     background-color: #1c2752;
-    padding: 50px 42px 50px 42px;
+    padding: 48px 38px;
+    box-shadow: 5px 10px 25px #7b7b7b;
+
 }
 
 .testimonial_FAQ > div {
@@ -1487,4 +1495,86 @@ h6 {
 
 .testimonial_FAQ--Numbersection:hover{
     padding: 6px 0 0;
+}
+
+/* !! testimonial Appointment Form */
+
+.testimonial_AppointmentForm{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.testimonial_AppointmentForm--form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+    padding: 68px 58px;
+    background-color: #F4F4F4;
+
+}
+
+.testimonial_AppointmentForm--form form {
+    gap: 45px;
+}
+
+
+.testimonial_AppointmentForm--form-contemt {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonial_AppointmentForm--form-contemt div {
+    display: flex;
+    flex-direction: column;
+
+}
+.testimonial_AppointmentForm--form-contemt div input {
+    Width: 500px;
+    Height: 65px;
+    border: none;
+    box-shadow: 5px 10px 18px #a2a1a1d6;
+}
+
+.testimonial_AppointmentForm--form-contemt div textarea {
+    Width: 500px;
+    Height: 139px;
+    border: none;
+    box-shadow: 5px 10px 18px #a2a1a1d6;
+
+}
+
+.testimonial_AppointmentForm--form-contemt div label {
+    visibility: hidden;
+}
+
+#submit {
+    margin-top: 50px;
+    width: 500px;
+    height: 65px;
+    background-color: #1c2752;
+    border: none;
+    color: #cfb730e9;
+    transition: all 1s;
+    box-shadow: 5px 10px 18px #818181d6;
+
+}
+
+.testimonial_AppointmentForm--form-contemt div input:focus {
+    box-shadow: 5px 10px 18px #908c42c5;
+}
+
+.testimonial_AppointmentForm--form-contemt div textarea:focus {
+    box-shadow: 5px 10px 18px #908c42c5;
+
+}
+
+
+#submit:hover {
+    background: #264e86;
+    color: #ffffff;
+    height: 70px;
+    box-shadow: 5px 10px 18px #70b3c9d6;
 }
