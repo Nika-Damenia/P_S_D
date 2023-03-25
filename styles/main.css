@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    height: 1000vh;
+    height: 5000vh;
 }
 
 h1,
@@ -1319,8 +1319,8 @@ h6 {
     width: 540px;
 }
 
-.testimonial_title--SubText {
-    color: #1c2752;
+.testimonial0Clients_title--SubText {
+    color: #9c8b29c9;
     width: fit-content;
 }
 
@@ -1577,4 +1577,54 @@ h6 {
     color: #ffffff;
     height: 70px;
     box-shadow: 5px 10px 18px #70b3c9d6;
+}
+
+/* !! Clients */
+
+.Clients {
+    margin-top: 80px;
+
+}
+
+.Clients_Container {
+    width: 1010px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+}
+
+
+.Clients_Container--Title {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+
+.Clients_Container--Title h3 {
+    color: #1c2752;
+    font-size: 35px;
+}
+
+.Clients_Container--Logo {
+    display: flex;
+    gap: 40px;
+ }
+
+
+ .Clients_Container--Logo div {
+    display: flex;
+    align-items: center;
+
+
+ }
+
+.Clients_Container--Logo div img {
+    width: 100px;
+}
+
+.Clients_Container--Logo div h4 {
+    font-family: 'Bungee Inline', cursive;
 }
