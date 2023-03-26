@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    height: 5000vh;
+    height: 1500vh;
 }
 
 h1,
@@ -215,7 +215,7 @@ h6 {
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(29, 57, 74);
+    background-color: #335467;
     transition: all 0.7s;
 }
 
@@ -247,7 +247,7 @@ h6 {
 }
 
 .navigaton__cta button:active {
-    background-color: #1c2752;
+    background-color: #335467;
     transition: 0ms;
 }
 
@@ -380,7 +380,7 @@ h6 {
 /*  !!  quote section */
 
 .quotesection {
-    background-color: #1c2752;
+    background-color: #335467;
     height: 750px;
     margin-top: 150px;
 }
@@ -491,7 +491,7 @@ h6 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #1c2752;
+  background: #335467;
   left: 0;
   top: 0;
   border-radius: 10px;
@@ -749,13 +749,7 @@ h6 {
 .ServicesContainer_6service--service {
     width: 337px;
     height: 319px;
-    background-color: #1c2752;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    color: #a7a5a5c5;
+    background-color: #335467;
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -1035,7 +1029,7 @@ h6 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #1c2752;
+    background: #335467;
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -1150,7 +1144,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1c2752;
+    background-color: #335467;
     color: #8f7b10;
     font-family: 'Mulish';
     font-style: normal;
@@ -1291,7 +1285,7 @@ h6 {
   }
    
 .Gallery_container::-webkit-scrollbar-thumb {
-    background-color: #1c2752;
+    background-color: #335467;
     outline: 1px solid slategrey;
     border-radius: 30px;
 
@@ -1367,7 +1361,7 @@ h6 {
 }
 
 .testimonial_content--Mainicon{
-    background-color: #1c2752;
+    background-color: #335467;
     background-image: url(../img/icons/“.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -1405,7 +1399,7 @@ h6 {
 }
 
 .testimonial_content--icon2{
-    background:  #1c2752;
+    background:  #335467;
     color: #F8F8F8;
     padding: 14px 20px;
     border-radius: 50%;
@@ -1436,7 +1430,7 @@ h6 {
  /* !! FAQ section */
 
 .testimonial_FAQ {
-    background-color: #1c2752;
+    background-color: #335467;
     padding: 48px 38px;
     box-shadow: 5px 10px 25px #7b7b7b;
 
@@ -1554,7 +1548,7 @@ h6 {
     margin-top: 50px;
     width: 500px;
     height: 65px;
-    background-color: #1c2752;
+    background-color: #335467;
     border: none;
     color: #cfb730e9;
     transition: all 1s;
@@ -1588,7 +1582,7 @@ h6 {
 
 .Clients_Container {
     width: 1010px;
-    height: 210px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     gap: 45px;
@@ -1627,4 +1621,206 @@ h6 {
 
 .Clients_Container--Logo div h4 {
     font-family: 'Bungee Inline', cursive;
+}
+
+/* !! Pricing */
+
+.Pricing{
+    margin-top: 145px;
+    background-color: #F4F4F4;
+    height: 1200px;
+    padding: 145px 0;
+}
+
+.PricingContent {
+    flex-direction: column;
+    gap: 75px;
+}
+
+.PricingContent_content {
+    display: flex;
+    align-items: center;
+    gap: 145px;
+}
+
+.PricingContent_content--Title {
+    width: 480px;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.PricingContent_content--Title h3 {
+    Font-size: 40px;
+    font-weight: 800;
+    color: #1c2752;
+}
+
+.PricingContent_content p {
+    width: 579px;
+}
+
+.PricingContent_content--Title > .icon_lable {
+    width: fit-content;
+    color: #1c2752;
+    background-color: #FFFFFF;
+}
+
+.PricingContent_Pricing {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.PricingContent_Pricing--Watches {
+    width: 385px;
+    background-color: #fff;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+}
+
+.PricingContent_Pricing--Watches-price {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 40px 0 40px;
+}
+
+.PricingContent_Pricing--Watches-price div h4 {
+    margin: 3px;
+    color: #1c2752;
+}
+
+
+.PricingContent_Pricing--Watches img {
+    width: 330px;
+    margin: 0px 27px;
+
+}
+
+
+.PricingContent_Pricing--Watches-price ul {
+    list-style: url(../img/icons/check_for_prices.png);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+}
+
+.PricingContent_Pricing--Watches-price ul li div {
+    position: relative;
+    bottom: 3px;
+    left: 5px;
+}
+
+.PricingContent_Pricing--buybutton {
+    width: 300px;
+    height: 65px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 1s;
+}
+
+.PricingContent_Pricing--buybutton:hover{
+    width: 310px;
+    height: 75px;
+    color: #ded700;
+}
+
+.PricingContent_Pricing--buybutton {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: #ae9924;
+  background: #335467;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.PricingContent_Pricing--buybutton:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff7300,
+    #ae9924,
+    #000000,
+    #ffbb00,
+    #edca05,
+    #ded700,
+    #000000,
+    #ae9924
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.PricingContent_Pricing--buybutton:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #335467;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.PricingContent_Points {
+    display: flex;
+    gap: 80px;
+    margin-top: 70px;
+    
+}
+
+.PricingContent_Points--content {
+    display: flex;
+    align-items: baseline;
+}
+
+.PricingContent_Points--content div {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+.PricingContent_Points--content h4 {
+    font-size: 20px;
+    color: #1c2752;
+    margin: 5px;
+}
+
+.PricingContent_Points--content p {
+    width: 515px;
+    margin: 5px;
 }
