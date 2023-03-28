@@ -30,6 +30,7 @@
       {
         "duplicate-id-active": "off"
       }
-    ]
+    ],
+    "button-type": "off"
   }
 }

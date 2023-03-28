@@ -1824,3 +1824,121 @@ h6 {
     width: 515px;
     margin: 5px;
 }
+
+/* !!  Address */
+
+.Address {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.Address_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Address_title>.icon_lable {
+    width: fit-content;
+}
+
+
+.Address_title h3 {
+    color: #1c2752;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.Address_info {
+    display: flex;
+    height: 660px;
+    width: 1200px;
+    gap: 30px;
+
+}
+
+.Address_info--Containers {
+    background-image: url(../img/city_mall.jpg);
+    background-repeat: no-repeat;
+    background-size: 660px 440px;
+    padding-top: 500px;
+}
+
+.Address_info--Managers {
+    margin-top: -100px;
+    margin-left: 50px;
+    height: 75px;
+    display: flex;
+}
+
+.Address_info--Managers div {
+    width: 180px;    
+    background-color:  #d3bd3e;
+    color: #264e86;
+    padding: 22px 30px;
+    background-image: url(../img/icons/man.png);
+    background-repeat: no-repeat;
+    background-position: 10px 22px;
+}
+
+.Address_info--Managers div:first-child {
+    background-color: #dac446;
+    padding: 18px 40px;
+}
+
+.Address_info--Managers div:last-child {
+    background-image: url(../img/icons/GPS_icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px 22px;
+}
+
+.Address_info--content {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Address_info--content div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Address_info--content div h4,p {
+    margin: 0;
+}
+
+.Address_info--content div h4 {
+    font-size: 30px;
+    font-style: 700;
+    color: #1c2752;
+}
+
+.Address_info--content div p {
+    width: 585px;
+}
+
+.Address_info--content button {
+    background: none;
+    border: none;
+    width: fit-content;
+    color: #1c2752;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1.5s;
+}
+
+.Address_info--content button:hover{
+    background-color: #e8e8e897;
+    border-radius: 40px;
+    color: #264e86;
+    padding: 5px 10px;
+    
+}
