@@ -24,9 +24,6 @@ html {
 
 }
 
-body {
-    height: 1500vh;
-}
 
 h1,
 h2,
@@ -1116,7 +1113,7 @@ h6 {
 .WhyChooseContainer_subContent {
     height: 860px;
     width: 660px;
-    background: url(../img/A\ Yummy\ Curated\ Gallery\ 2014.png) no-repeat;
+    background: url('../img/A\ Yummy\ Curated\ Gallery\ 2014.png') no-repeat;
     background-size: 770px;
     background-position: left;
     display: flex;
@@ -1870,6 +1867,10 @@ h6 {
     padding-top: 500px;
 }
 
+.Address_info--Containers-2 {
+    background-image: url(../img/metro_city.png);
+}
+
 .Address_info--Managers {
     margin-top: -100px;
     margin-left: 50px;
@@ -1924,7 +1925,7 @@ h6 {
     width: 585px;
 }
 
-.Address_info--content button {
+.Address_info--content summary {
     background: none;
     border: none;
     width: fit-content;
@@ -1935,10 +1936,287 @@ h6 {
     transition: all 1.5s;
 }
 
-.Address_info--content button:hover{
-    background-color: #e8e8e897;
-    border-radius: 40px;
+.Address_info--content summary:hover {
     color: #264e86;
-    padding: 5px 10px;
+    padding-top: 5px;
     
+}
+
+
+ /* !!Newslatter */
+
+.Newslatter {
+    margin-top: 145px;
+    background: #335467;
+    padding: 100px 0;
+}
+
+
+ .Newslatter_Content {
+    height: 130px;
+    align-items: center;
+
+}
+
+.Newslatter_Content--Heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.Newslatter_Content--Heading h3 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #ae9924;
+    margin: 0;
+}
+
+.Newslatter_Content--Heading p {
+    width: 585px;
+    color: #ae9924;
+
+}
+
+.Newslatter_Content--Mail {
+    display: flex;
+
+}
+
+.Newslatter_Content--Mail label {
+    visibility: hidden;
+}
+
+#YourEmail {
+    padding: 20px 40px 20px 10px;
+    border: solid #ffffff;
+    background: none;
+    color: #ae9924;
+    transition: all 0.8s;
+}
+
+#YourEmail::placeholder { 
+    color: #ae99249e;
+}
+
+#YourEmail:hover {
+    background-color: #223844cb;
+}
+
+#YourEmail:focus {
+    background-color: #223844cb;
+}
+
+#Subscribe {
+    width: 200px;
+    border: solid #fff;
+    color: #ae9924;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 2s;
+}
+
+#Subscribe:hover {
+    background-color: #e2e2e2;
+    color: #656042;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* footer */
+
+.FooterContainer {
+    background-color: #a89008e2;
+    height: 550px;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.FooterContainer_Content {
+    flex-direction: column;
+}
+
+.FooterContainer_Content--header {
+    display: flex;
+    gap: 115px;
+}
+
+.FooterContainer_Content--header > img {
+    width: 110px;
+}
+.Footer_icon{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #335467;
+    background-image: url('../img/icons/Mail_icon_FORFOOTER.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Footer_icon--phone {
+    background-image: url('../img/icons/Phone_icon_FORFOOTER.png');
+}
+
+.Footer_icon--gps {
+    background-image: url('../img/icons/GPS_icon_FORFOOTER.png');
+}
+
+.FooterContainer_Content--contacts-contact {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.FooterContainer_Content--contacts-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 230px;
+}
+
+.FooterContainer_Content--contacts {
+    display: flex;
+    gap: 22px;
+}
+
+.FooterContainer_Content--contacts-title{ 
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.FooterContainer_Content--contacts-text {
+    font-weight: 400;
+    color: #ffffffbc;
+}
+
+.FooterContainer_MainContent {
+    display: flex;
+    border-top: solid #a58d04;
+    border-bottom: solid #a58d04;
+    margin-top: 100px;
+    padding: 40px 0px;
+    gap: 75px;
+    color: #fff;
+}
+
+
+
+.FooterContainer_MainContent--About {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 440px;
+}
+
+
+
+.FooterContainer_MainContent--About div  {
+   display: flex;
+   gap: 15px;
+}
+
+.MainContent_About--icon1 {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #a58d04dc;
+    background-image: url('../img/icons/Insta_FORFOOTER.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.MainContent_About--icon2 {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #a58d04dc;
+    background-image: url('../img/icons/Fb_FORFOOTER.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.MainContent_About--icon3 {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #a58d04dc;
+    background-image: url('../img/icons/Twiter_FORFOOTER.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.MainContent_About--icon4 {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #a58d04dc;
+    background-image: url('../img/icons/Pintrest_FORFOOTER.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.FooterContainer_MainContent--ExploreANDquicklinks {
+    display: flex;
+    border-left: solid #a58d04;
+    border-right: solid #a58d04;
+    padding: 0 60px;
+    gap: 60px;
+}
+
+.FooterContainer_MainContent--ExploreANDquicklinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+
+}
+.FooterContainer_MainContent--ExploreANDquicklinks h4 {
+    margin: 0;
+}
+
+.FooterContainer_MainContent--ExploreANDquicklinks div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.FooterContainer_MainContent--ExploreANDquicklinks div a {
+    text-decoration: none;
+    color: #e4e4e4c1;
+}
+
+.FooterContainer_MainContent--UitilityPages div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.FooterContainer_MainContent--UitilityPages h4 {
+    margin: 0;
+}
+
+
+
+.FooterContainer_MainContent--UitilityPages ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+
+}
+
+
+.FooterContainer_MainContent--UitilityPages a {
+    text-decoration: none;
+    color: #e4e4e4c1;
+}
+
+.Copyright{
+    color: #ffffffa7;
+    margin-top: 19px;
 }
