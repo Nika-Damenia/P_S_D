@@ -107,7 +107,7 @@ h6 {
 }
 
 .contact__title {
-    font-family: 'Mulish';
+    font-family: 'Mulish', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #1c2752;
@@ -273,7 +273,7 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: end;
-    background: url(../img/manwithwatch1.jpg) no-repeat;
+    background: url('../img/manwithwatch1.jpg') no-repeat;
     background-size: 363px;
     background-position: 15px;
 }
@@ -300,15 +300,12 @@ h6 {
     width: 600px;
     height: 132px;
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
 }
 
 .about_experience {
     display: flex;
-    flex-direction: row;
     position: relative;
     left: -100px;
 }
@@ -1553,13 +1550,9 @@ h6 {
 
 }
 
-.testimonial_AppointmentForm--form-contemt div input:focus {
+.testimonial_AppointmentForm--form-contemt div input:focus,
+.testimonial_AppointmentForm--form-contemt div textarea:focus  {
     box-shadow: 5px 10px 18px #908c42c5;
-}
-
-.testimonial_AppointmentForm--form-contemt div textarea:focus {
-    box-shadow: 5px 10px 18px #908c42c5;
-
 }
 
 
